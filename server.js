@@ -8,7 +8,7 @@ require("dotenv").config();
 //console.log(process.env); // Should display all environment variables
 
 
-// parse requests of content-type - application/json
+// parse   requests of content-type - application/json
 app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
