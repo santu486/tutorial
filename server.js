@@ -13,7 +13,7 @@ app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 console.log("router "+router)
     // simple route
     app.get("/hello", (req, res) => {
